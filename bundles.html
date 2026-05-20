@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Build a Box · Chakki Ghar</title>
+  <meta name="description" content="Curate your own pantry box. Six items, fifteen percent off." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,30..100;1,9..144,300..600,30..100&family=Inter:wght@400;500;600&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <div class="top-bar">Free shipping across India on orders above ₹999 · <a href="subscribe.html">Auto-deliver and save 15%</a></div>
+
+  <header class="site-header">
+    <nav class="nav">
+      <ul class="nav-links left">
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="bundles.html">Build a Box</a></li>
+        <li><a href="subscribe.html">Subscribe</a></li>
+      </ul>
+      <a href="index.html" class="logo">Chakki Ghar<span class="sub deva">चक्की घर</span></a>
+      <ul class="nav-links right">
+        <li><a href="story.html">Story</a></li>
+        <li><a href="journal.html">Journal</a></li>
+        <li><a href="locator.html">Find Us</a></li>
+        <li><button class="icon-btn"><span class="nav-text">Cart</span><span class="cart-count">0</span></button></li>
+        <li><button class="mobile-toggle" id="menuToggle"><span></span><span></span><span></span></button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <nav class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="menuClose">Close</button>
+    <a href="shop.html">Shop</a><a href="bundles.html">Build a Box</a><a href="subscribe.html">Subscribe</a>
+    <a href="story.html">Story</a><a href="journal.html">Journal</a><a href="locator.html">Find Us</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="container bundle-hero">
+    <div class="reveal">
+      <span class="eyebrow">Build Your Pantry</span>
+      <h1 style="margin-top: 1rem;">Six flours, one box, fifteen percent off.</h1>
+      <p class="lede" style="margin-bottom: 1.5rem;">Curate a box that matches your kitchen, not someone else's. Pick six items from across the pantry and we will pack, label and ship within two days of your order.</p>
+      <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.6rem; margin: 1.5rem 0; color: var(--ink-soft);">
+        <li>→ Save 15% on a six-item box.</li>
+        <li>→ Free shipping anywhere in India.</li>
+        <li>→ Includes a recipe card and a milled-on-date label.</li>
+        <li>→ Add a handwritten note for ₹0 extra.</li>
+      </ul>
+    </div>
+    <div class="image reveal">
+      <img src="assets/images/stock/spices-flatlay.jpg" alt="Editorial flatlay of pantry jars and spices" />
+    </div>
+  </section>
+
+  <!-- PRESET BOXES -->
+  <section class="section-tight">
+    <div class="container">
+      <div class="section-head reveal">
+        <div><span class="eyebrow">Pre-Curated Boxes</span><h2>Or let us do the curating.</h2></div>
+        <p class="lede">Three boxes, three intentions. Shipped exactly as shown.</p>
+      </div>
+      <div class="product-grid" style="grid-template-columns: repeat(3, 1fr);">
+        <a href="#" class="product-card reveal">
+          <div class="media"><div class="img-placeholder">Starter Pantry</div><div class="badge">Most Popular</div></div>
+          <div class="info">
+            <span class="name">The Starter Pantry</span>
+            <span class="meta">Khapli, Bajra, Ragi, Jowar, Multigrain, House Ghee</span>
+            <span class="price"><s>₹1,940</s> ₹1,649</span>
+          </div>
+        </a>
+        <a href="#" class="product-card reveal">
+          <div class="media"><div class="img-placeholder">Diabetic-Friendly Box</div></div>
+          <div class="info">
+            <span class="name">The Slow-Sugar Box</span>
+            <span class="meta">Low-GI millets and ancient grains for steady energy.</span>
+            <span class="price"><s>₹1,780</s> ₹1,513</span>
+          </div>
+        </a>
+        <a href="#" class="product-card reveal">
+          <div class="media"><div class="img-placeholder">Vrat Box</div><div class="badge">Seasonal</div></div>
+          <div class="info">
+            <span class="name">The Vrat Box</span>
+            <span class="meta">Kuttu, Singhara, Sama, Sendha namak, and ghee.</span>
+            <span class="price"><s>₹1,620</s> ₹1,377</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUILDER -->
+  <section class="container">
+    <div class="builder-steps reveal">
+      <span class="step active"><span class="num">1</span> Pick your items</span>
+      <span class="step"><span class="num">2</span> Add a note</span>
+      <span class="step"><span class="num">3</span> Checkout</span>
+    </div>
+
+    <div class="bundle-builder">
+      <div>
+        <div class="builder-grid reveal">
+          <div class="b-card" data-price="320">
+            <div class="media"><div class="img-placeholder" style="position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(160deg, #E8D5B0, #C9A77C);font-size:0.75rem;color:var(--ink);">Khapli Atta</div></div>
+            <span class="name">Khapli Wheat Atta</span>
+            <span class="meta">1kg · Madhya Pradesh</span>
+            <div class="add"><span class="price">₹320</span><button>Add</button></div>
+          </div>
+          <div class="b-card" data-price="180">
+            <div class="media"><div class="img-placeholder" style="position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(160deg, #C9BFA8, #837A65);font-size:0.75rem;color:var(--paper);">Bajra Flour</div></div>
+            <span class="name">Bajra Flour</span>
+            <span class="meta">500g · Bikaner</span>
+            <div class="add"><span class="price">₹180</span><button>Add</button></div>
+          </div>
+          <div class="b-card" data-price="260">
+            <div class="media"><div class="img-placeholder" style="position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(160deg, #8B6B4A, #5A4128);font-size:0.75rem;color:var(--paper);">Ragi Atta</div></div>
+            <span class="name">Ragi Atta</span>
+            <span class="meta">1kg · Karnataka</span>
+            <div class="add"><span class="price">₹260</span><button>Add</button></div>
+          </div>
+          <div class="b-card" data-price="240">
+            <div class="media"><div class="img-placeholder" style="position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(160deg, #E5D9BC, #C0A974);font-size:0.75rem;color:var(--ink);">Jowar Atta</div></div>
+            <span class="name">Jowar Atta</span>
+            <span class="meta">1kg · Maharashtra</span>
+            <div class="add"><span class="price">₹240</span><button>Add</button></div>
+          </div>
+          <div class="b-card" data-price="220">
+            <div class="media"><div class="img-placeholder" style="position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(160deg, #D9C684, #A98F3F);font-size:0.75rem;color:var(--ink);">Foxtail Millet</div></div>
+            <span class="name">Whole Foxtail Millet</span>
+            <span class="meta">500g · Tamil Nadu</span>
+            <div class="add"><span class="price">₹220</span><button>Add</button></div>
+          </div>
+          <div class="b-card" data-price="290">
+            <div class="media"><div class="img-placeholder" style="position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(160deg, #B6A07E, #806A4A);font-size:0.75rem;color:var(--paper);">Kuttu Atta</div></div>
+            <span class="name">Kuttu Atta</span>
+            <span class="meta">500g · Vrat-friendly</span>
+            <div class="add"><span class="price">₹290</span><button>Add</button></div>
+          </div>
+          <div class="b-card" data-price="360">
+            <div class="media"><div class="img-placeholder" style="position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(160deg, #C7A875, #8F7138);font-size:0.75rem;color:var(--paper);">Multigrain</div></div>
+            <span class="name">House Multigrain</span>
+            <span class="meta">1kg · 7 grains</span>
+            <div class="add"><span class="price">₹360</span><button>Add</button></div>
+          </div>
+          <div class="b-card" data-price="920">
+            <div class="media"><div class="img-placeholder" style="position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(160deg, #E8C77A, #C39426);font-size:0.75rem;color:var(--ink);">A2 Bilona Ghee</div></div>
+            <span class="name">A2 Bilona Ghee</span>
+            <span class="meta">500ml · Cultured</span>
+            <div class="add"><span class="price">₹920</span><button>Add</button></div>
+          </div>
+          <div class="b-card" data-price="420">
+            <div class="media"><div class="img-placeholder" style="position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(160deg, #4A3B33, #1F1612);font-size:0.75rem;color:var(--paper);">Black Rice</div></div>
+            <span class="name">Manipuri Black Rice</span>
+            <span class="meta">500g · Heirloom</span>
+            <div class="add"><span class="price">₹420</span><button>Add</button></div>
+          </div>
+          <div class="b-card" data-price="160">
+            <div class="media"><div class="img-placeholder" style="position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(160deg, #5A4128, #2F2014);font-size:0.75rem;color:var(--paper);">Kala Chana</div></div>
+            <span class="name">Whole Kala Chana</span>
+            <span class="meta">500g · Desi</span>
+            <div class="add"><span class="price">₹160</span><button>Add</button></div>
+          </div>
+          <div class="b-card" data-price="480">
+            <div class="media"><div class="img-placeholder" style="position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(160deg, #D49B25, #966A0F);font-size:0.75rem;color:var(--paper);">Mustard Oil</div></div>
+            <span class="name">Kachi Ghani Mustard Oil</span>
+            <span class="meta">1L · Wood-pressed</span>
+            <div class="add"><span class="price">₹480</span><button>Add</button></div>
+          </div>
+          <div class="b-card" data-price="280">
+            <div class="media"><div class="img-placeholder" style="position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(160deg, #ECDFC2, #C8B58A);font-size:0.75rem;color:var(--ink);">Hand-Pounded Rice</div></div>
+            <span class="name">Hand-Pounded Sona Masuri</span>
+            <span class="meta">1kg · Semi-polished</span>
+            <div class="add"><span class="price">₹280</span><button>Add</button></div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="bundle-summary reveal">
+        <h3>Your Box</h3>
+        <p style="font-size: 0.85rem; color: var(--warm-grey);">
+          Pick six items to unlock 15% off. <span id="bundleCounter" style="font-family: var(--font-display); font-size: 1.1rem; color: var(--ink);">0 / 6</span>
+        </p>
+        <ul id="bundleList">
+          <li style="color: var(--warm-grey); justify-content: center;">Your box is empty</li>
+        </ul>
+        <div class="save-tag">15% OFF once you hit 6 items</div>
+        <div class="totals" id="bundleTotals">
+          <span>Total</span><span>₹0</span>
+        </div>
+        <button class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 1rem;">Add Box to Cart <span class="arrow">→</span></button>
+        <small style="display: block; text-align: center; margin-top: 1rem; color: var(--warm-grey);">Ships within 2 days of milling. Free over ₹999.</small>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container">
+      <div class="cta-strip reveal">
+        <div>
+          <span class="eyebrow" style="color: var(--turmeric);">Make it a Habit</span>
+          <h2 style="margin-top: 1rem;">Want this box every <em>month</em>?</h2>
+          <p>Turn any box into a subscription and get another 15% off on top, plus priority milling and free shipping every time.</p>
+        </div>
+        <div class="actions">
+          <a href="subscribe.html" class="btn btn-primary">Subscribe to a Box <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="brand-block"><div class="logo">Chakki Ghar<span class="sub deva" style="color: var(--turmeric);">चक्की घर</span></div><p>"Slow milled, deeply rooted. Made for the kitchen, kept for the years."</p></div>
+        <div><h4>Shop</h4><ul><li><a href="shop.html">All Flours</a></li><li><a href="shop.html">Whole Grains</a></li><li><a href="shop.html">Pantry Oils &amp; Ghee</a></li><li><a href="bundles.html">Build a Box</a></li><li><a href="subscribe.html">Auto-Deliver</a></li></ul></div>
+        <div><h4>Brand</h4><ul><li><a href="story.html">Our Story</a></li><li><a href="story.html">The Mill</a></li><li><a href="journal.html">Journal</a></li><li><a href="locator.html">Find Us</a></li><li><a href="locator.html">B2B &amp; Wholesale</a></li></ul></div>
+        <div><h4>Help</h4><ul><li><a href="#">Contact</a></li><li><a href="#">Shipping &amp; Returns</a></li><li><a href="#">FAQs</a></li><li><a href="#">Track Order</a></li><li><a href="#">My Account</a></li></ul></div>
+        <div><h4>Connect</h4><ul><li><a href="#">Instagram</a></li><li><a href="#">WhatsApp</a></li><li><a href="mailto:hello@chakkighar.in">hello@chakkighar.in</a></li><li><a href="tel:+919000000000">+91 90000 00000</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 Chakki Ghar Foods Pvt. Ltd. All rights reserved.</span><span>Made slow, in India. <span class="deva" style="color: var(--turmeric);">भारत में बना</span></span></div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

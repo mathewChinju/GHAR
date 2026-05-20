@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Journal · Chakki Ghar</title>
+  <meta name="description" content="Recipes, farmer profiles, kitchen lore. Read slowly, ideally with chai." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,30..100;1,9..144,300..600,30..100&family=Inter:wght@400;500;600&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <div class="top-bar">Free shipping across India on orders above ₹999 · <a href="subscribe.html">Auto-deliver and save 15%</a></div>
+
+  <header class="site-header">
+    <nav class="nav">
+      <ul class="nav-links left">
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="bundles.html">Build a Box</a></li>
+        <li><a href="subscribe.html">Subscribe</a></li>
+      </ul>
+      <a href="index.html" class="logo">Chakki Ghar<span class="sub deva">चक्की घर</span></a>
+      <ul class="nav-links right">
+        <li><a href="story.html">Story</a></li>
+        <li><a href="journal.html">Journal</a></li>
+        <li><a href="locator.html">Find Us</a></li>
+        <li><button class="icon-btn"><span class="nav-text">Cart</span><span class="cart-count">0</span></button></li>
+        <li><button class="mobile-toggle" id="menuToggle"><span></span><span></span><span></span></button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <nav class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="menuClose">Close</button>
+    <a href="shop.html">Shop</a><a href="bundles.html">Build a Box</a><a href="subscribe.html">Subscribe</a>
+    <a href="story.html">Story</a><a href="journal.html">Journal</a><a href="locator.html">Find Us</a>
+  </nav>
+
+  <section class="container journal-hero">
+    <span class="deva reveal">रसोई की बातें</span>
+    <h1 class="reveal">Notes from the chakki, and the kitchens beyond it.</h1>
+    <p class="reveal">A reading room of recipes, farmer profiles, kitchen lore, and the occasional opinion. Updated every Sunday, on Indian Standard Time.</p>
+
+    <div class="j-tabs reveal">
+      <a href="#" class="active">All</a>
+      <a href="#">Recipes</a>
+      <a href="#">Farmer Stories</a>
+      <a href="#">Kitchen Notes</a>
+      <a href="#">Heritage Grains</a>
+      <a href="#">Health &amp; Nutrition</a>
+      <a href="#">Interviews</a>
+    </div>
+  </section>
+
+  <!-- Featured story -->
+  <section class="container">
+    <div class="story-split reveal" style="margin-bottom: 4rem;">
+      <div class="media">
+        <img src="assets/images/stock/roti-tawa.jpg" alt="Bhakri cooking on a traditional pan" />
+      </div>
+      <div class="copy">
+        <span class="eyebrow">This Week's Read · 6 min</span>
+        <h2 style="margin-top: 1rem;">The case for the bhakri, and a recipe that finally works.</h2>
+        <p>For years, our jowar bhakris cracked, our bajra ones turned to brick, and our ragis tasted like cardboard. Then a 78-year-old cook in Pune showed us what we were doing wrong. (Spoiler: it was almost everything.)</p>
+        <p><strong>By</strong> Aanya Mehta · <strong>Published</strong> 09 May 2026</p>
+        <a href="#" class="btn-text">Read the Recipe <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Grid of journal entries -->
+  <section class="container section" style="padding-top: 0;">
+    <div class="journal-grid" style="grid-template-columns: repeat(3, 1fr);">
+      <a href="#" class="j-card reveal">
+        <div class="media"><img src="assets/images/stock/millet-stalks.jpg" alt="Bajra stalks in a field at golden hour" /></div>
+        <span class="tag">Farmer Profile</span>
+        <h3>Rajaram of Bikaner, and the bajra that started it all.</h3>
+        <p>How one farmer's stubbornness about heirloom varieties became the cornerstone of our pantry.</p>
+        <span class="read-more">Read · 4 min</span>
+      </a>
+      <a href="#" class="j-card reveal">
+        <div class="media"><img src="assets/images/stock/pantry-jars.jpg" alt="Glass jars of grains stacked on a wooden shelf" /></div>
+        <span class="tag">Kitchen Notes</span>
+        <h3>How to store stone-milled flour so it actually stays fresh.</h3>
+        <p>Five rules, one experiment with the freezer, and an unsolicited opinion about plastic.</p>
+        <span class="read-more">Read · 3 min</span>
+      </a>
+      <a href="#" class="j-card reveal">
+        <div class="media"><img src="assets/images/stock/ghee-kheer.jpg" alt="Warm bowl of ragi porridge" /></div>
+        <span class="tag">Recipe</span>
+        <h3>Ragi malt for monsoon mornings. The way Mysuru does it.</h3>
+        <p>A 15-minute breakfast that has been keeping South Indian kids fed for at least a century.</p>
+        <span class="read-more">Read · 5 min</span>
+      </a>
+      <a href="#" class="j-card reveal">
+        <div class="media"><img src="assets/images/stock/wheat-golden.jpg" alt="Heap of khapli wheat grains" /></div>
+        <span class="tag">Heritage Grains</span>
+        <h3>What is Khapli wheat, and why we are quietly obsessed.</h3>
+        <p>The 7,000-year-old grain that the supermarket forgot.</p>
+        <span class="read-more">Read · 4 min</span>
+      </a>
+      <a href="#" class="j-card reveal">
+        <div class="media"><img src="assets/images/stock/cookbook-writing.jpg" alt="Handwritten notes on a wooden table" /></div>
+        <span class="tag">Health</span>
+        <h3>The glycaemic index, gently explained.</h3>
+        <p>Why some grains spike your blood sugar and others let it down softly. An interview with Dr. Anu Joseph.</p>
+        <span class="read-more">Read · 7 min</span>
+      </a>
+      <a href="#" class="j-card reveal">
+        <div class="media"><img src="assets/images/stock/mortar-spice.jpg" alt="Old chakki turning, dust in the light" /></div>
+        <span class="tag">Heritage</span>
+        <h3>The mill at Manchawal, still going at 84 years old.</h3>
+        <p>A morning at the oldest working chakki in our network, and what it can teach us.</p>
+        <span class="read-more">Read · 6 min</span>
+      </a>
+      <a href="#" class="j-card reveal">
+        <div class="media"><img src="assets/images/stock/roti-foil.jpg" alt="Stack of golden parathas" /></div>
+        <span class="tag">Recipe</span>
+        <h3>The lachha paratha, in a Khapli flour version.</h3>
+        <p>It takes patience. It rewards it. With recipe pictures by Tara Khanna.</p>
+        <span class="read-more">Read · 5 min</span>
+      </a>
+      <a href="#" class="j-card reveal">
+        <div class="media"><img src="assets/images/stock/farmer-portrait.jpg" alt="Hands sorting millets in a field" /></div>
+        <span class="tag">Interview</span>
+        <h3>In conversation with Padma Reddy, millet farmer and matriarch.</h3>
+        <p>On 40 years of growing kodo, the politics of rice subsidies, and a granddaughter who wants to leave the farm.</p>
+        <span class="read-more">Read · 8 min</span>
+      </a>
+      <a href="#" class="j-card reveal">
+        <div class="media"><img src="assets/images/stock/spices-bowls.jpg" alt="Warm spices and ghee in a bowl" /></div>
+        <span class="tag">Pantry</span>
+        <h3>Why bilona ghee tastes different (and why it should cost more).</h3>
+        <p>An honest breakdown of how the cultured method works, and why we charge what we charge.</p>
+        <span class="read-more">Read · 4 min</span>
+      </a>
+    </div>
+
+    <div style="text-align: center; margin-top: 3rem;" class="reveal">
+      <a href="#" class="btn btn-outline">Load More Stories <span class="arrow">↓</span></a>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="section">
+    <div class="container">
+      <div class="newsletter reveal">
+        <div>
+          <span class="eyebrow">The Sunday Letter</span>
+          <h2>One slow read, every Sunday.</h2>
+        </div>
+        <div>
+          <form onsubmit="event.preventDefault(); alert('Thank you. Look out for our first letter this Sunday.');">
+            <input type="email" placeholder="your@email.com" required />
+            <button type="submit">Subscribe →</button>
+          </form>
+          <small>Recipes, growers, the occasional 10% off. No spam, ever.</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="brand-block"><div class="logo">Chakki Ghar<span class="sub deva" style="color: var(--turmeric);">चक्की घर</span></div><p>"Slow milled, deeply rooted. Made for the kitchen, kept for the years."</p></div>
+        <div><h4>Shop</h4><ul><li><a href="shop.html">All Flours</a></li><li><a href="shop.html">Whole Grains</a></li><li><a href="shop.html">Pantry Oils &amp; Ghee</a></li><li><a href="bundles.html">Build a Box</a></li><li><a href="subscribe.html">Auto-Deliver</a></li></ul></div>
+        <div><h4>Brand</h4><ul><li><a href="story.html">Our Story</a></li><li><a href="story.html">The Mill</a></li><li><a href="journal.html">Journal</a></li><li><a href="locator.html">Find Us</a></li><li><a href="locator.html">B2B &amp; Wholesale</a></li></ul></div>
+        <div><h4>Help</h4><ul><li><a href="#">Contact</a></li><li><a href="#">Shipping &amp; Returns</a></li><li><a href="#">FAQs</a></li><li><a href="#">Track Order</a></li><li><a href="#">My Account</a></li></ul></div>
+        <div><h4>Connect</h4><ul><li><a href="#">Instagram</a></li><li><a href="#">WhatsApp</a></li><li><a href="mailto:hello@chakkighar.in">hello@chakkighar.in</a></li><li><a href="tel:+919000000000">+91 90000 00000</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 Chakki Ghar Foods Pvt. Ltd. All rights reserved.</span><span>Made slow, in India. <span class="deva" style="color: var(--turmeric);">भारत में बना</span></span></div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
